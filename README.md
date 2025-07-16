@@ -11,10 +11,8 @@
    Python环境：Python 3.9 64bit
    因作者~~太懒~~实力不足，以下过程均以Windows环境下运行，并**默认你已经安装了Python pip等一系列工具**
 
-2. > [!WARNING]
-   >
-   > 使用前**请先安装依赖**（python-docx lxml）
-   > 请在CMD/powershell中执行以下命令```pip install python-docx lxml```
+2. 使用前**请先安装依赖**（python-docx lxml）
+   请在CMD/powershell中执行以下命令```pip install python-docx lxml```
 
 3. 本项目为了实现更好的排版，使用[霞鹜新晰黑](https://github.com/lxgw/LxgwNeoXiHei)<sup>1</sup>作为默认排版字体（附fonts文件夹中）**建议**使用前安装本字体以在word中获得更好观赏体验。
 
