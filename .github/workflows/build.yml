@@ -15,7 +15,7 @@ jobs:
           pyinstaller_ver: '==6.15.0'
           spec: 'lyrics_book_maker.py'
           requirements: 'requirements.txt'
-          upload_exe_with_name: '歌词本生成器-Windows'
+          upload_exe_with_name: 'Lyc-Book-Generator (Windows)'
           options: -F
 
   pyinstaller-build-with-linux:
@@ -28,5 +28,5 @@ jobs:
           pyinstaller_ver: '==6.15.0'
           spec: 'lyrics_book_maker.py'
           requirements: 'requirements.txt'
-          upload_exe_with_name: '歌词本生成器-Linux'
+          upload_exe_with_name: 'Lyc-Book-Generator (Linux)'
           options: -F
