@@ -9,6 +9,12 @@
 
 本项目为了实现更好的排版，使用[霞鹜新晰黑](https://github.com/lxgw/LxgwNeoXiHei)<sup>1</sup>作为默认排版字体（附fonts文件夹中）**建议**使用前安装本字体以在word中获得更好观赏体验。
 
+### 准备工作
+
+使用[163MusicLyrics](https://github.com/jitwxs/163MusicLyrics/releases)下载歌单中歌曲的.lrc文件，并备用
+
+当下载外语（特指日语英语，按需打开）![method1.png](https://raw.githubusercontent.com/qazedc-abcd/lyrics-book/refs/heads/main/photos/method1.png)
+
 ### 使用Github Actions的构建
 
 你可以到Github Actions（需要登录）下载构建，或者跟着下文的方法手动运行
@@ -18,8 +24,7 @@
 #### 对应操作步骤
 
 1. 前往Actions下载可执行文件，解压缩得到对应平台的软件（例：windows解压应当为`lyrics_book_maker.exe`）
-2. 使用[163MusicLyrics](https://github.com/jitwxs/163MusicLyrics/releases)下载歌单中歌曲的.lrc文件，并将其保存在与工具软件同文件夹下的`lrc_files`文件夹中，如果不知道怎么创建，可以先双击运行一次工具，工具会自动生成`lrc_files`
-   当下载外语（特指日语英语，按需打开）![method1.png](https://raw.githubusercontent.com/qazedc-abcd/lyrics-book/refs/heads/main/photos/method1.png)
+2. 将准备好的lrc文件，移动到与工具软件同文件夹下的`lrc_files`文件夹中，如果不知道怎么创建，可以先双击运行一次工具，工具会自动生成`lrc_files`
 3. 双击运行工具，等待合成，完成后窗口会自己关闭，打开output以查看.docx文档（输出页面为A5，双栏）
 
 ### 从源码运行/使用Release v0.1的7z压缩包运行
@@ -37,7 +42,7 @@
 #### 对应操作步骤
 
 1. 下载[releases](https://github.com/qazedc-abcd/lyrics-book/releases)里面的lyrics_book.7z 文件
-2. 使用[163MusicLyrics](https://github.com/jitwxs/163MusicLyrics/releases)下载歌单中歌曲的.lrc文件并将其保存在lrc_files里（release中已包含该软件的7.1版本）
+2. 将准备好的lrc文件，移动到lrc_files里（release中已包含该软件的7.1版本）
    当下载外语（特指日语英语，按需打开）![method1.png](https://raw.githubusercontent.com/qazedc-abcd/lyrics-book/refs/heads/main/photos/method1.png)
 3. 打开”合成.bat“，等待合成，完成后窗口会自己关闭，打开output以查看.docx文档（输出页面为A5，双栏）
 
