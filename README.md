@@ -5,6 +5,10 @@
 
 网购歌词本太多歌曲不喜欢怎么办？自己~~纯度太高~~听的歌不太与他人一样怎么办？快来试试我耗时4h用deepseek写出来的一键生成歌词本代码罢！
 
+## 使用
+
+你可以到Github Actions下载构建，或者跟着下文的方法手动运行
+
 ### 系统环境，依赖处理
 
 1. 作者系统环境：Win10 LTSC x64 （但是应该能装Python的系统都跑得起来吧）
@@ -12,7 +16,9 @@
    因作者~~太懒~~实力不足，以下过程均以Windows环境下运行，并**默认你已经安装了Python pip等一系列工具**
 
 2. 使用前**请先安装依赖**（python-docx lxml）
-   请在CMD/powershell中执行以下命令```pip install python-docx lxml```
+    - 使用release的lyrics_book.7z：请在CMD/powershell中执行以下命令```pip install python-docx lxml```
+    - 使用源码：clone本仓库，然后在项目根目录下执行```pip install -r requirements.txt```
+    - 使用Github Actions的打包构建：什么都不用做
 
 3. 本项目为了实现更好的排版，使用[霞鹜新晰黑](https://github.com/lxgw/LxgwNeoXiHei)<sup>1</sup>作为默认排版字体（附fonts文件夹中）**建议**使用前安装本字体以在word中获得更好观赏体验。
 
